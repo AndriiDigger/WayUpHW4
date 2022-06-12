@@ -1,0 +1,164 @@
+body {
+  color: #201b2d;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #4dbefe;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #4dbefe), color-stop(100%, #378fd9));
+  background: linear-gradient(135deg, #4dbefe 0%, #378fd9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbefe', endColorstr='#378fd9', GradientType=1 );
+}
+
+.logo {
+  margin: 60px 0 0 0;
+}
+
+.wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 140px;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.wrp .offer {
+  padding-top: 130px;
+}
+
+.wrp .offer .offer-title {
+  font-size: 37px;
+  font-weight: 700;
+  width: 560px;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.wrp .offer .offer-title span {
+  font-size: 59px;
+}
+
+.wrp .offer p {
+  width: 395px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6em;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.btn {
+  color: #201b2d;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  display: inline-block;
+  background-color: #ffd429;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #f6ff00;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.future {
+  text-align: center;
+  padding: 100px 0 120px 0;
+}
+
+.future .future-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 70px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.future .future-list .future-item {
+  width: 290px;
+}
+
+.future .future-list .future-item:nth-child(2) {
+  margin: 0 165px 0 165px;
+}
+
+.future .future-list .future-item:nth-child(3) {
+  width: 300px;
+}
+
+.future .future-list .future-item .future-title {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.future .future-list .future-item .future-desc {
+  margin: 0 0 0 0;
+  line-height: 1.6em;
+}
+
+.data {
+  background-color: #ecf3f8;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.data h2 {
+  margin-bottom: 50px;
+}
+
+.data input {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif;
+  width: 310px;
+  height: 45px;
+  margin-bottom: 15px;
+  padding-left: 25px;
+  border: 2px solid #d0d0d0;
+  border-radius: 4px;
+}
+
+.data input:focus {
+  -webkit-box-shadow: 2px 2px 20px #74c6f9;
+          box-shadow: 2px 2px 20px #74c6f9;
+}
+
+.data .form .btn-sub {
+  width: 340px;
+  border: 0;
+}
+
+.footer {
+  background-color: #164d7a;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 55px 0;
+}
+/*# sourceMappingURL=main.css.map */
